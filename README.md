@@ -1,4 +1,4 @@
-docker-os
+DockerOS
 =========
 
-An API client for docker written in Objective-C. Works for iOS and OS X.
+An API client for docker written in Objective-C. Works for OS X.
