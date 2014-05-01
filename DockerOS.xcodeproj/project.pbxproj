@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		65E10B141912705900DDA3A1 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65E10B131912705900DDA3A1 /* Cocoa.framework */; };
+		65E10B1E1912705900DDA3A1 /* DockerOS.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E10B1D1912705900DDA3A1 /* DockerOS.m */; };
+		65E10B251912705900DDA3A1 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65E10B241912705900DDA3A1 /* XCTest.framework */; };
+		65E10B261912705900DDA3A1 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65E10B131912705900DDA3A1 /* Cocoa.framework */; };
+		65E10B291912705900DDA3A1 /* DockerOS.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 65E10B101912705900DDA3A1 /* DockerOS.dylib */; };
+		65E10B2F1912705900DDA3A1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 65E10B2D1912705900DDA3A1 /* InfoPlist.strings */; };
+		65E10B311912705900DDA3A1 /* DockerOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E10B301912705900DDA3A1 /* DockerOSTests.m */; };
+		C08AB65AA0764FD5B46DA68F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C003CD4265B40769F3FA891 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		65E10B271912705900DDA3A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65E10B081912705900DDA3A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65E10B0F1912705900DDA3A1;
+			remoteInfo = DockerOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4CC6E4C7E2184BB1BBAEB5DF /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		65E10B101912705900DDA3A1 /* DockerOS.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = DockerOS.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		65E10B131912705900DDA3A1 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		65E10B161912705900DDA3A1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		65E10B171912705900DDA3A1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		65E10B181912705900DDA3A1 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		65E10B1B1912705900DDA3A1 /* DockerOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DockerOS-Prefix.pch"; sourceTree = "<group>"; };
+		65E10B1C1912705900DDA3A1 /* DockerOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DockerOS.h; sourceTree = "<group>"; };
+		65E10B1D1912705900DDA3A1 /* DockerOS.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DockerOS.m; sourceTree = "<group>"; };
+		65E10B231912705900DDA3A1 /* DockerOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DockerOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		65E10B241912705900DDA3A1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		65E10B2C1912705900DDA3A1 /* DockerOSTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DockerOSTests-Info.plist"; sourceTree = "<group>"; };
+		65E10B2E1912705900DDA3A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		65E10B301912705900DDA3A1 /* DockerOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DockerOSTests.m; sourceTree = "<group>"; };
+		7C003CD4265B40769F3FA891 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		65E10B0D1912705900DDA3A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65E10B141912705900DDA3A1 /* Cocoa.framework in Frameworks */,
+				C08AB65AA0764FD5B46DA68F /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65E10B201912705900DDA3A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65E10B261912705900DDA3A1 /* Cocoa.framework in Frameworks */,
+				65E10B291912705900DDA3A1 /* DockerOS.dylib in Frameworks */,
+				65E10B251912705900DDA3A1 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		65E10B071912705900DDA3A1 = {
+			isa = PBXGroup;
+			children = (
+				65E10B191912705900DDA3A1 /* DockerOS */,
+				65E10B2A1912705900DDA3A1 /* DockerOSTests */,
+				65E10B121912705900DDA3A1 /* Frameworks */,
+				65E10B111912705900DDA3A1 /* Products */,
+				4CC6E4C7E2184BB1BBAEB5DF /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		65E10B111912705900DDA3A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				65E10B101912705900DDA3A1 /* DockerOS.dylib */,
+				65E10B231912705900DDA3A1 /* DockerOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		65E10B121912705900DDA3A1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				65E10B131912705900DDA3A1 /* Cocoa.framework */,
+				65E10B241912705900DDA3A1 /* XCTest.framework */,
+				65E10B151912705900DDA3A1 /* Other Frameworks */,
+				7C003CD4265B40769F3FA891 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		65E10B151912705900DDA3A1 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				65E10B161912705900DDA3A1 /* Foundation.framework */,
+				65E10B171912705900DDA3A1 /* CoreData.framework */,
+				65E10B181912705900DDA3A1 /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		65E10B191912705900DDA3A1 /* DockerOS */ = {
+			isa = PBXGroup;
+			children = (
+				65E10B1C1912705900DDA3A1 /* DockerOS.h */,
+				65E10B1D1912705900DDA3A1 /* DockerOS.m */,
+				65E10B1A1912705900DDA3A1 /* Supporting Files */,
+			);
+			path = DockerOS;
+			sourceTree = "<group>";
+		};
+		65E10B1A1912705900DDA3A1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				65E10B1B1912705900DDA3A1 /* DockerOS-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		65E10B2A1912705900DDA3A1 /* DockerOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				65E10B301912705900DDA3A1 /* DockerOSTests.m */,
+				65E10B2B1912705900DDA3A1 /* Supporting Files */,
+			);
+			path = DockerOSTests;
+			sourceTree = "<group>";
+		};
+		65E10B2B1912705900DDA3A1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				65E10B2C1912705900DDA3A1 /* DockerOSTests-Info.plist */,
+				65E10B2D1912705900DDA3A1 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		65E10B0E1912705900DDA3A1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		65E10B0F1912705900DDA3A1 /* DockerOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65E10B341912705900DDA3A1 /* Build configuration list for PBXNativeTarget "DockerOS" */;
+			buildPhases = (
+				1492BD9D2D704E68802F0010 /* Check Pods Manifest.lock */,
+				65E10B0C1912705900DDA3A1 /* Sources */,
+				65E10B0D1912705900DDA3A1 /* Frameworks */,
+				65E10B0E1912705900DDA3A1 /* Headers */,
+				F51B5AD5199947F3A480C76E /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DockerOS;
+			productName = DockerOS;
+			productReference = 65E10B101912705900DDA3A1 /* DockerOS.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		65E10B221912705900DDA3A1 /* DockerOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65E10B371912705900DDA3A1 /* Build configuration list for PBXNativeTarget "DockerOSTests" */;
+			buildPhases = (
+				65E10B1F1912705900DDA3A1 /* Sources */,
+				65E10B201912705900DDA3A1 /* Frameworks */,
+				65E10B211912705900DDA3A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65E10B281912705900DDA3A1 /* PBXTargetDependency */,
+			);
+			name = DockerOSTests;
+			productName = DockerOSTests;
+			productReference = 65E10B231912705900DDA3A1 /* DockerOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		65E10B081912705900DDA3A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Information Design Zwicker";
+				TargetAttributes = {
+					65E10B221912705900DDA3A1 = {
+						TestTargetID = 65E10B0F1912705900DDA3A1;
+					};
+				};
+			};
+			buildConfigurationList = 65E10B0B1912705900DDA3A1 /* Build configuration list for PBXProject "DockerOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 65E10B071912705900DDA3A1;
+			productRefGroup = 65E10B111912705900DDA3A1 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+			);
+			projectRoot = "";
+			targets = (
+				65E10B0F1912705900DDA3A1 /* DockerOS */,
+				65E10B221912705900DDA3A1 /* DockerOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		65E10B211912705900DDA3A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65E10B2F1912705900DDA3A1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1492BD9D2D704E68802F0010 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F51B5AD5199947F3A480C76E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		65E10B0C1912705900DDA3A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65E10B1E1912705900DDA3A1 /* DockerOS.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65E10B1F1912705900DDA3A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65E10B311912705900DDA3A1 /* DockerOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		65E10B281912705900DDA3A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65E10B0F1912705900DDA3A1 /* DockerOS */;
+			targetProxy = 65E10B271912705900DDA3A1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		65E10B2D1912705900DDA3A1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65E10B2E1912705900DDA3A1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		65E10B321912705900DDA3A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		65E10B331912705900DDA3A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		65E10B351912705900DDA3A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CC6E4C7E2184BB1BBAEB5DF /* Pods.xcconfig */;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DockerOS/DockerOS-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		65E10B361912705900DDA3A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CC6E4C7E2184BB1BBAEB5DF /* Pods.xcconfig */;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DockerOS/DockerOS-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		65E10B381912705900DDA3A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DockerOS.dylib";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DockerOS/DockerOS-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "DockerOSTests/DockerOSTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		65E10B391912705900DDA3A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DockerOS.dylib";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DockerOS/DockerOS-Prefix.pch";
+				INFOPLIST_FILE = "DockerOSTests/DockerOSTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		65E10B0B1912705900DDA3A1 /* Build configuration list for PBXProject "DockerOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65E10B321912705900DDA3A1 /* Debug */,
+				65E10B331912705900DDA3A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65E10B341912705900DDA3A1 /* Build configuration list for PBXNativeTarget "DockerOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65E10B351912705900DDA3A1 /* Debug */,
+				65E10B361912705900DDA3A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		65E10B371912705900DDA3A1 /* Build configuration list for PBXNativeTarget "DockerOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65E10B381912705900DDA3A1 /* Debug */,
+				65E10B391912705900DDA3A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 65E10B081912705900DDA3A1 /* Project object */;
+}
