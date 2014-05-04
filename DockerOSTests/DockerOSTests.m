@@ -6,6 +6,8 @@
 //
 
 #import <XCTest/XCTest.h>
+#import <RestKit/RestKit.h>
+#import <RestKit/Testing.h>
 
 @interface DockerOSTests : XCTestCase
 

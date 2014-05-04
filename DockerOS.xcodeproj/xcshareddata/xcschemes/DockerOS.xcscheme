@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C7C0F96C760944DA9612FD91"
-               BuildableName = "libPods.a"
-               BlueprintName = "Pods"
-               ReferencedContainer = "container:Pods/Pods.xcodeproj">
+               BlueprintIdentifier = "65E10B0F1912705900DDA3A1"
+               BuildableName = "DockerOS.dylib"
+               BlueprintName = "DockerOS"
+               ReferencedContainer = "container:DockerOS.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
