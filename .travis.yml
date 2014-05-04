@@ -1,0 +1,15 @@
+language: objective-c
+
+before_install:
+  - gem install --no-ri --no-rdoc cocoapods xcpretty
+
+
+env:
+  matrix:
+    - SCHEME=DockerOS SDK=macosx
+
+script:
+  - set -o pipefail; xcodebuild -workspace *.xcworkspace -sdk $SDK -scheme $SCHEME build test CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO ONLY_ACTIVE_ARCH=NO | xcpretty -c
+
+notifications:
+  email: false
