@@ -115,6 +115,7 @@
 				65E10B1C1912705900DDA3A1 /* DockerOS.h */,
 				65E10B1D1912705900DDA3A1 /* DockerOS.m */,
 				65E10B1A1912705900DDA3A1 /* Supporting Files */,
+				B02F17CC73A767CA5605EC5D /* Logging */,
 			);
 			path = DockerOS;
 			sourceTree = "<group>";
@@ -143,6 +144,13 @@
 				65E10B2D1912705900DDA3A1 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B02F17CC73A767CA5605EC5D /* Logging */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Logging;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
